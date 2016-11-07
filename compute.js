@@ -1,5 +1,5 @@
 var computation = require('child_process').spawn,
-py    = computation('python', ['compute_input.py']),
+py    = computation('python', ['statistics.py']),
 data = [1,2,3,4,5,6,7,8,9],
 dataString = '';
 
