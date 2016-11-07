@@ -10,7 +10,6 @@ py.stdout.on('data', function(data){
 
 /*Once the stream is done (on 'end') we want to simply log the received data to the console.*/
 py.stdout.on('end', function(){
-  console.log('heartData=',dataString);
 });
 
 /*We have to stringify the data first otherwise our python process wont recognize it*/

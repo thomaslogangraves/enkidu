@@ -1,4 +1,3 @@
-import pull_parse
 
 var computation = require('child_process').spawn,
   py    = computation('python', ['statistics.py']),
