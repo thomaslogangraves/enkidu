@@ -1,0 +1,24 @@
+{
+  "name": "logan",
+  "version": "1.0.0",
+  "description": "Computation for biometrics with basic server.",
+  "main": "compute.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaslogangraves/enkidu.git"
+  },
+  "keywords": [
+    "python",
+    "javascript"
+  ],
+  "author": "Thomas L. Graves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaslogangraves/enkidu/issues"
+  },
+  "homepage": "https://github.com/thomaslogangraves/enkidu#readme"
+}
