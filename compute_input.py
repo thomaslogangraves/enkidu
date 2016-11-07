@@ -13,12 +13,11 @@ def main():
     lines = read_in()
     #create a numpy array
     np_lines = np.array(lines)
-
     #use numpys sum method to find sum of all elements in the array
-    lines_sum = np.sum(np_lines)
+    lines_mean = np.mean(np_lines)
 
     #return the sum to the output stream
-    print(lines_sum)
+    print(lines_mean)
 
 #start process
 if __name__ == '__main__':
