@@ -1,10 +1,10 @@
  var parser = function(fileName){
-  var parse = require('child_process').spawn,
+  var parse = require('child_process').exec,
     data = fileName,
     py = parse('python', ['parser.py', data]),
     dataString = '';
   /*Here we are saying that every time our node application receives data from the python process output stream(on 'data'), we want to convert that received data into a string and append it to the overall dataString.*/
- py.stdout.on('data', function(data){
+  py.stdout.on('data', function(data){
     dataString += data.toString();
   });
 
