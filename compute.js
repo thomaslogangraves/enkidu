@@ -11,7 +11,7 @@ var compute = function(dataSet){
 
   /*Once the stream is done (on 'end') we want to simply log the received data to the console.*/
   py.stdout.on('end', function(){
-    return dataString
+    return dataString;
   });
 
   /*We have to stringify the data first otherwise our python process wont recognize it*/
