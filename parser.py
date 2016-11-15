@@ -17,7 +17,6 @@ def main():
     list_len = len(heart_data)
     results = [float(i) for i in heart_data]
     print(results)
-    sys.stdout.flush()
 
 if __name__ == '__main__':
     main()
