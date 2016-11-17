@@ -1,14 +1,12 @@
 import csv, math, json, sys
-from functools import reduce
 
 def read_in():
-    target_file = sys.argv[1]
-    # #Since our input would only be having one line, parse our JSON data from that
+    target_file = "HR.csv"
     return target_file
 
 def main():
-    filename = read_in()
-    file = open(filename)
+    file_name = read_in()
+    file = open(file_name)
     csv_f = csv.reader(file)
     heart_data = []
     for row in csv_f:
