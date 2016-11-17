@@ -1,8 +1,7 @@
 import csv, math, json, sys
-from functools import reduce
 
 def read_in():
-    target_file = sys.argv[1]
+    target_file = "HR.csv"
     return target_file
 
 def main():

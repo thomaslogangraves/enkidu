@@ -16,8 +16,6 @@ def main():
     lines_mean = np.mean(np_lines)
     #return the sum to the output stream
     print(lines_mean)
-    sys.stdout.flush()
 
-#start process
 if __name__ == '__main__':
     main()
