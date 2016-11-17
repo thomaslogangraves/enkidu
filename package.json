@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/thomaslogangraves/enkidu/issues"
   },
-  "homepage": "https://github.com/thomaslogangraves/enkidu#readme"
+  "homepage": "https://github.com/thomaslogangraves/enkidu#readme",
+  "dependencies": {
+    "jStat": "^1.5.3"
+  }
 }
