@@ -1,12 +1,12 @@
-const fs = require('fs');
-const parse = require('csv-parse');
-const jStat = require('jStat').jStat;
+var fs = require('fs');
+var parse = require('csv-parse');
+var jStat = require('jStat').jStat;
 
-const csv = './HR.csv';
-const eda = './EDA.csv';
+var csv = './HR.csv';
+var eda = './EDA.csv';
 
 function parseTool(file, cb) {
-  const csvData=[];
+  var csvData=[];
   fs.createReadStream(file)
       .pipe(parse({delimiter: ':'}))
       .on('data', function(csvrow) {
