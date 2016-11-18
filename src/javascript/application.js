@@ -2,8 +2,8 @@ const fs = require('fs');
 const parse = require('csv-parse');
 const jStat = require('jStat').jStat;
 
-const csv = '../HR.csv';
-const eda = '../EDA.csv';
+const csv = './HR.csv';
+const eda = './EDA.csv';
 
 function parseTool(file, cb) {
   const csvData=[];
