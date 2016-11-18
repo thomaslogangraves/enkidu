@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-// import Layout from './components/Layout';
+import Layout from './components/Layout';
 import Application from './components/App';
-// import NotFoundPage from './components/NotFoundPage';
+import NotFoundPage from './components/NotFoundPage';
 
 const routes = (
   <Route path="/" component={Layout}>
