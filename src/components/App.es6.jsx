@@ -1,4 +1,7 @@
-class Application extends React.Component {
+import React from 'react';
+import { Link } from 'react-router';
+
+export default class Application extends React.Component {
   constructor() {
     super();
     this.state = {
